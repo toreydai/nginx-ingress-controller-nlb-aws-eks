@@ -76,7 +76,7 @@ NAME                TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)        AG
 apple-service       ClusterIP   10.100.30.73     <none>        5678/TCP       32m
 banana-service      ClusterIP   10.100.192.204   <none>        5678/TCP       28m
 ```
-创建SSL和securt
+创建SSL和Secret
 
 ```
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout tls.key -out tls.crt -subj "/CN=test.com/O=test.com"
