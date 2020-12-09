@@ -22,4 +22,4 @@ spec:
       targetPort: http
     - name: https
       port: 443
-      targetPort: https
+      targetPort: http
